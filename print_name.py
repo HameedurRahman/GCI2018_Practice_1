@@ -1,11 +1,12 @@
 a=str(input("\nEnter your name: "))
 
 def reverse(a): 
-  str = "" 
+  b = "" 
   for i in a: 
-    str = i + str
-  return str
+    b = i + b
+  return b
 
-print("Hello",a,", please to meet you! Did you know that your name backwards is ",(reverse(a)))
+print("Hello",a,", pleased to meet you! Did you know that your name backwards is ",(reverse(a)))
+
 
 
